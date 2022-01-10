@@ -1,0 +1,150 @@
+body{
+    
+    font-family: sans-serif;
+}
+/* header  */
+.nav{
+    height: 50px;
+    width: auto;
+}
+.nav-item{
+    display: flex;
+    line-height: 55px;  
+    position: fixed;  
+    background-color: white;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 /10%);
+    width: 100%;
+    justify-content: center;
+    margin-left: -10px;
+}
+.nav-item a:hover{
+    background-color: yellow;
+}
+.menu{
+    padding: 10px 22px;
+}
+a:nth-child(1){
+    padding-left: 20px;
+}
+a:nth-child(2){
+   margin-left: 80px;
+}
+a:nth-child(8){
+    margin-left: 130px;    
+}
+/* section-one  */
+.home{
+    margin-top: 70px;
+}
+.tablet{
+    width: 50px;
+}
+.computer{
+    width: 50px;
+}
+.phone{
+    width: 50px;
+}
+.plant{
+    width: 50px;
+}
+.home h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.s1{
+    color:#EE4248;
+}
+.home p{
+    margin-bottom: 40px;
+}
+.pana{
+    width: 500px;
+    margin-top: 50px;
+}
+/* section-two  */
+.d1{
+    margin-top: 140px;
+    background: #F7F7F7;
+    margin-bottom: 50px;
+}
+.section-two img{
+    width: 450px;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+.section-two h1{
+    font-size: 38px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.section-two p{
+    font-size: 18px;
+}
+/* section-three  */
+.s3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.home2 img{
+    padding-bottom: 30px;
+}
+.home2 h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: #EE4248;
+    padding-bottom: 30px;
+}
+.home2 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* footer  */
+footer{
+    margin-top: 150px;
+}
+.home3 img{
+     padding-bottom: 20px;
+}
+.home3 h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.home3 p{
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+}
+.home4 h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.home4 p{
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    line-height: 35px;
+}
+.home5{
+    background-color:#EE4248 ;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+.d2 h1{
+    font-size: 18px;
+    padding-top: 20px;
+}
+/* main css  */
+.btn{
+    transition: all 0.3s;
+}
+.btn:hover{
+  transform: scale(1.10);
+}
